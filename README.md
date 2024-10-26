@@ -11,12 +11,12 @@ This project is a simple web application for creating and managing sticky notes 
 ## Screenshots
 
 ### mobile:
-![Mobile Empty Dashboard](screenshots/mobile_empty.png){height=450px}
-![Mobile Sticky Notes](screenshots/mobile_notes.png){height=450px}
+![Mobile Empty Dashboard](screenshots/mobile_empty.png)
+![Mobile Sticky Notes](screenshots/mobile_notes.png)
 
 ### web:
-![web empty dashboard](screenshots/web_empty.png){height=450px}
-![web Sticky Notes](screenshots/web_notes.png){height=450px}
+![web empty dashboard](screenshots/web_empty.png)
+![web Sticky Notes](screenshots/web_notes.png)
 
 ## Project Structure
 1. index.html: The main HTML file that contains the structure of the web page.
