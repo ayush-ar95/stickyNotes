@@ -27,7 +27,6 @@ addButton.addEventListener("click", () => {
         divTextArea.remove();
     });
 
-
     divTextArea.appendChild(deleteButton);
     divNotes.appendChild(divTextArea);
 });
