@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.board {
+    margin: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+.heading {
+    color: firebrick;
+    text-align: center;
+    padding: 5px;
+}
+
+.notes-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.adjustment {
+    width: 100%;
+    padding: 10px;
+}
+
+.notes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.textarea-container {
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.notes-textarea {
+    min-height: 100px;
+    min-width: 270px;
+    border-radius: 9px;
+    padding: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 80vw;
+    outline: none;
+}
+
+.delete-note-button {
+    position: absolute;
+    right: 7px;
+    top: 4px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.add-note-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 45px;
+}
